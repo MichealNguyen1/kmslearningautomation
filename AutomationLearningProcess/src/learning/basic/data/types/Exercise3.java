@@ -22,6 +22,7 @@ public class Exercise3 {
         TimeZone.setDefault(gmtTimeZone);
         Calendar myCal = Calendar.getInstance(gmtTimeZone);
         Date myDate = myCal.getTime();
+        System.out.println(myDate);
 
         SimpleDateFormat dateFormat1 = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
         String fDate1 = dateFormat1.format(myDate);
