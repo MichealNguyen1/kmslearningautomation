@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 
 enum TshirtSize{
@@ -48,7 +47,6 @@ class Book {
         this.title = title;
         this.author = author;
         this.price = price;
-
     }
 
     public void setTitle(String title) {
@@ -107,6 +105,27 @@ public class BookDemo {
         System.out.println(baoSize);
 
         System.out.println(book);
+
+        /*********************** Basic Datatype ***************************/
+        DataTypePractices dataTypePractices = new DataTypePractices();
+
+/*        System.out.println("Enter Fahrenheit degree to convert to Celsius degree: ");
+        Scanner sc = new Scanner(System.in);
+        float fDegree = sc.nextFloat();
+        float cDegree = dataTypePractices.ConvertFToC(fDegree);
+        dataTypePractices.PrintDegree(cDegree);
+
+        System.out.println("Input the number of minutes: ");
+        Scanner scMin = new Scanner(System.in);
+        int minute = scMin.nextInt();
+        dataTypePractices.ConvertMinutesToYearAndDay(minute);
+        int year = dataTypePractices.year;
+        int day = dataTypePractices.day;
+        dataTypePractices.PrintDate(minute, year, day);*/
+
+        System.out.println("Input the time zone offset to GMT: ");
+        Scanner scOffset = new Scanner(System.in);
+        dataTypePractices.GetCurrentTimeInGMT(scOffset.nextInt());
 
     }
 }
