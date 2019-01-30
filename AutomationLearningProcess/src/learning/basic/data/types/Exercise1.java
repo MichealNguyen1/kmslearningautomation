@@ -9,6 +9,7 @@ import java.util.Scanner;
  * Expected Output:
  * 212.0 degree Fahrenheit is equal to 100.0 in Celsius
  */
+
 public class Exercise1 {
 
     static double tempInFahrenheit = 0;
@@ -16,7 +17,7 @@ public class Exercise1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a degree in Fahrenheit: ");
-        tempInFahrenheit = Double.valueOf(sc.nextLine());
+        tempInFahrenheit = sc.nextDouble();
         System.out.println(tempInFahrenheit + " degree Fahrenheit is equal to " + convertFtoC() + " in Celsius.");
     }
 
@@ -24,6 +25,4 @@ public class Exercise1 {
         double degreeInCelsius = (tempInFahrenheit - 32) * 5 / 9;
         return degreeInCelsius;
     }
-
-
 }
