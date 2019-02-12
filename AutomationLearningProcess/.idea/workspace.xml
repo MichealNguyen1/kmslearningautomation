@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exercise3Solution1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exercise3Solution1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="419">
+              <caret line="26" column="92" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,12 +34,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PrePostDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/learning/Operator/PrePostDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OddEvenNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learning/Operator/OddEvenNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Exercise3Solution2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="918">
               <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/learning/basic/data/types/Exercise3.java" />
         <option value="$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution2.java" />
         <option value="$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution1.java" />
+        <option value="$PROJECT_DIR$/src/learning/Operator/OddEvenNumber.java" />
+        <option value="$PROJECT_DIR$/src/learning/Operator/PrePostDemo.java" />
       </list>
     </option>
   </component>
@@ -131,8 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,6 +165,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -183,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="basic.data.types" />
+              <option name="myItemId" value="Operator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,27 +226,7 @@
       <recent name="learning.basic.data.types" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="learning.basic.data.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="learning.basic.data.types.Exercise2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="AutomationLearningProcess" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.OddEvenNumber">
     <configuration default="false" name="Exercise3Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -283,14 +287,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Exercise3Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PrePostDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="learning.basic.data.types.*" />
+          <option name="PATTERN" value="learning.Operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="learning.basic.data.types.Exercise3Solution2" />
+      <option name="MAIN_CLASS_NAME" value="learning.Operator.PrePostDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AutomationLearningProcess" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="OddEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="learning.Operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="learning.Operator.OddEvenNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -538,19 +562,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Exercise2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Exercise3Solution1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Employee2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Exercise3Solution1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Employee2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PrePostDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.OddEvenNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Exercise3Solution1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Employee2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Exercise2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.OddEvenNumber" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrePostDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Exercise3Solution1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Exercise3Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -624,6 +648,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="30" />
           <folding>
@@ -636,7 +680,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +690,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,10 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#659#660#0" expanded="false" />
-            <element signature="e#688#689#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +960,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -925,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,28 +977,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#659#660#0" expanded="false" />
-            <element signature="e#688#689#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="918">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/learning/basic/data/types/Exercise3Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="419">
+          <caret line="26" column="92" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/Operator/OddEvenNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/Operator/PrePostDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
